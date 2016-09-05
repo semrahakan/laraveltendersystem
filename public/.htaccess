@@ -5,14 +5,14 @@
 
     RewriteEngine On
 
-  RewriteEngine onRewriteCond %{HTTP_HOST} ^(www.)?ryanhettler.com$
+  RewriteEngine onRewriteCond %{HTTP_HOST} ^(www.)?traftecturkey.com$
 RewriteCond %{REQUEST_URI} !^/public/
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ /public/$1
 
-RewriteCond %{HTTP_HOST} ^(www.)?ryanhettler.com$
+RewriteCond %{HTTP_HOST} ^(www.)?traftecturkey.com$
 RewriteRule ^(/)?$ public/index.php [L]
 
     # Handle Authorization Header
